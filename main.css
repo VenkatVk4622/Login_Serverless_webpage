@@ -1,0 +1,35 @@
+
+.container {
+    /* border: 2px solid #000; /* Example: 2px solid black border */
+    width: 90%; /* Example: 80% of the parent container width */
+}
+.image-column {
+    flex: 1; /* Takes up 1 portion of the container */
+}
+.text-column {
+    flex: 2; /* Takes up 2 portions of the container, making it larger than the image column */
+    padding: 20px; /* Add some padding around the text */
+}
+img {
+    max-width: 100%; /* Make sure the image is responsive and fits its container */
+    height: auto; /* Maintain aspect ratio */
+}
+.border-right {
+    border-right: 1px solid #ccc; /* Adjust color as needed */
+}
+input[type="text"] {
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 4px;
+}
+.success-message {
+        color: green;
+        background-color: #DFF2BF;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid green;
+        border-radius: 5px;
+}
+#authtokenTextarea {
+    width: 100%;
+    height: 200px;
+}
