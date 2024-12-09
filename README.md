@@ -1,0 +1,1 @@
+This repository contains some files that can be used to host a Static Website on S3 and use Cognito for registration and authentication. After logging in, it´s possibile to fill in some fields to save some itens in a DynamoDB table and there is another button to retrieve this data.
